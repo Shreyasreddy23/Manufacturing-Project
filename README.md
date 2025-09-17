@@ -35,7 +35,7 @@ Manufacturing-Analytics-Project/
 - Sheets include: `Data`, `Dashboard`, `Employee and Machine`, `Units vs Rejected`, and `Department Wise Manufacture`.  
 - Visual summary of metrics using PivotCharts and formulas.  
 
-👉 **To view:** Open in **Microsoft Excel** and check the **Dashboard** sheet.  
+
 
 ---
 
@@ -44,7 +44,7 @@ Manufacturing-Analytics-Project/
 - Tables: `customers`, `employees`, `items`, `machines`, `operations`, `departments`, `production_records`  
 - Includes data population + sample queries/views for production and quality analysis.  
 
-👉 **To use:** Run `SQL_Project.sql` in **MySQL** to build and load the schema.  
+ 
 
 ---
 
@@ -52,7 +52,6 @@ Manufacturing-Analytics-Project/
 - Packaged workbook with interactive dashboards.  
 - Shows KPIs like production over time, quality per line, department drill-downs.  
 
-👉 **To view:** Open `.twbx` file in **Tableau Desktop**.  
 
 ---
 
@@ -64,7 +63,7 @@ Key metrics included:
 - 📊 Rejection Rate: ~**0.82%**  
 - 🧾 Orders Fulfilled: **10,000**  
 
-👉 **To view:** Open `.pbix` in **Power BI Desktop**.  
+
 
 ---
 
@@ -72,7 +71,7 @@ Key metrics included:
 - Contains project workflow, methods, and screenshots.  
 - Summarizes objectives, KPIs, and dashboards from Excel, Tableau, and Power BI.  
 
-👉 **To view:** Open `.pptx` in **PowerPoint**.  
+
 
 ---
 
