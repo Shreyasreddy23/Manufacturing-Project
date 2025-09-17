@@ -1,53 +1,93 @@
-# Manufacturing-Project
+# Manufacturing Analytics Project (Group 4)
 
-## 📌 Project Overview  
-This project focuses on building a **Manufacturing Analytics Dashboard** to track and analyze key performance indicators (KPIs) across the production process.  
-The aim is to identify bottlenecks, monitor rejections, measure efficiency, and provide actionable insights for process improvements.  
+## 📌 Project Description  
+This project demonstrates an end-to-end **manufacturing analytics pipeline** using multiple tools.  
+Raw production data was transformed and analyzed with **SQL**, **Excel**, **Tableau**, and **Power BI**, and the results were summarized in a **presentation**.  
 
-We implemented this using **SQL, Excel, Tableau, and Power BI**, simulating a real-world business intelligence workflow.  
-
----
-
-## 🎯 Objectives  
-- Monitor **production performance** using KPIs.  
-- Compare outputs, rejections, and wastage across employees, machines, and departments.  
-- Provide visual insights to improve **quality & efficiency**.  
-- Demonstrate **end-to-end BI implementation** using multiple tools.  
+The goal was to track **key performance indicators (KPIs)** such as rejection rate, work order completion, and production efficiency, enabling better **decision-making** and **shop-floor visibility**.
 
 ---
 
-## 📌 Key Performance Indicators (KPIs)  
-1. **Manufacture Qty** – Total items produced.  
-2. **Rejected Qty** – Units failing quality checks.  
-3. **Processed Qty** – Items completed in manufacturing stages.  
-4. **Wastage Qty** – Materials/items lost during production.  
-5. **Employee-Wise Rejected Qty** – Rejections by employees.  
-6. **Machine-Wise Rejected Qty** – Rejections by machines.  
-7. **Production Comparison Trend** – Production trend over time.  
-8. **Manufacture vs Rejected** – Production vs rejection ratio.  
-9. **Department-Wise Manufacture vs Rejected** – Department-level breakdown.  
+## 📂 Folder Structure  
+Manufacturing-Analytics-Project/
+├── excel/                   # Excel-based data analysis and dashboard
+├── sql/                     # SQL scripts for database setup and queries
+├── tableau/                 # Tableau workbooks and dashboards
+├── powerbi/                 # Power BI report files
+├── presentation/            # Project presentation slides (PowerPoint)
+├── README.md                # Project documentation (this file)
 
 ---
 
-## 🛠️ Tools & Technologies  
-- **SQL** – Data cleaning, transformation, KPI calculations  
-- **Excel** – Base KPI reporting  
-- **Tableau** – Interactive dashboard  
-- **Power BI** – Dynamic storytelling & reports  
+## 🛠️ Files and Tools Used  
+- **Excel**: KPI dashboard with pivot tables, charts, and raw data analysis.  
+- **SQL (MySQL)**: Database schema + queries for manufacturing analytics.  
+- **Tableau**: Interactive dashboards for production and quality metrics.  
+- **Power BI**: Real-time KPI dashboard with rejection rates and completion % metrics.  
+- **PowerPoint**: Final project presentation summarizing goals, methods, and results.  
 
 ---
 
-## 📅 Project Timeline  
+## 🔎 Component Overviews  
 
-| Week | Task Description |  
-|------|------------------|  
-| 1️⃣ 1st Week | Project Kick-off Meeting |  
-| 2️⃣ 2nd Week | KPI implementation using **Excel** |  
-| 3️⃣ 3rd Week | KPI implementation using **Tableau/SQL/QA** |  
-| 4️⃣ 4th Week | KPI implementation using **Power BI/SQL/QA** |  
-| 5️⃣ 5th Week | Final Presentation of the Project |  
+### 📊 Excel Dashboard  
+- Raw manufacturing data + KPI calculations.  
+- Sheets include: `Data`, `Dashboard`, `Employee and Machine`, `Units vs Rejected`, and `Department Wise Manufacture`.  
+- Visual summary of metrics using PivotCharts and formulas.  
+
+👉 **To view:** Open in **Microsoft Excel** and check the **Dashboard** sheet.  
 
 ---
 
-## 📂 Repository Structure  
+### 🗄️ SQL Scripts  
+- Database: `manufacturing_analytics`  
+- Tables: `customers`, `employees`, `items`, `machines`, `operations`, `departments`, `production_records`  
+- Includes data population + sample queries/views for production and quality analysis.  
+
+👉 **To use:** Run `SQL_Project.sql` in **MySQL** to build and load the schema.  
+
+---
+
+### 📈 Tableau Dashboard  
+- Packaged workbook with interactive dashboards.  
+- Shows KPIs like production over time, quality per line, department drill-downs.  
+
+👉 **To view:** Open `.twbx` file in **Tableau Desktop**.  
+
+---
+
+### 📉 Power BI Dashboard  
+Key metrics included:  
+- ✅ Work Order Completion: ~**80.14%**  
+- 📦 Units Produced: ~**60.05 million**  
+- ❌ Units Rejected: ~**0.49 million**  
+- 📊 Rejection Rate: ~**0.82%**  
+- 🧾 Orders Fulfilled: **10,000**  
+
+👉 **To view:** Open `.pbix` in **Power BI Desktop**.  
+
+---
+
+### 🎤 PowerPoint Presentation  
+- Contains project workflow, methods, and screenshots.  
+- Summarizes objectives, KPIs, and dashboards from Excel, Tableau, and Power BI.  
+
+👉 **To view:** Open `.pptx` in **PowerPoint**.  
+
+---
+
+## 🚀 Instructions to Run  
+1. **Clone/download** this repo.  
+2. **Install required tools:**  
+   - Microsoft Excel  
+   - MySQL  
+   - Tableau Desktop  
+   - Power BI Desktop  
+   - PowerPoint  
+3. Open the respective files in each tool.  
+4. (Optional) Connect Tableau/Power BI to the MySQL database after running the SQL script.  
+
+---
+
+
 
